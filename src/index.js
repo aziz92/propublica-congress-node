@@ -2,7 +2,7 @@ var request = require( 'request' );
 
 var params = require( './params' );
 var urlParams = params.urlParams
-var qsParams = params.qsParams
+var qsParams = params.queryStringParams
 
 var util = require( './util' );
 var interpolate = util.interpolate;
